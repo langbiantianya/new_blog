@@ -45,6 +45,12 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
+			name: "一个长链",
+			url: "https://link.rerubbish.org", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+
+		},
+		{
 			name: "定开脚手架",
 			url: "https://gendk.kxxnzstdsw.com", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
