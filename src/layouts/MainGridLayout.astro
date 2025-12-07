@@ -58,7 +58,19 @@ const mainPanelTop = siteConfig.banner.enable
     >
     </ImageWrapper>
 </div>}
+<!-- nmpv2 -->
+<!-- 引入 CSS 文件 -->
+<link rel="stylesheet" href="https://api.hypcvgm.top/NeteaseMiniPlayer/netease-mini-player-v2.css">
 
+<!-- 引入 JS 文件 -->
+<script src="https://api.hypcvgm.top/NeteaseMiniPlayer/netease-mini-player-v2.js"></script>
+<div class="netease-mini-player"
+     data-playlist-id="14273792576"
+     data-embed="false"
+     data-position="bottom-left"
+     data-lyric="true"
+     data-theme="auto"
+></div>
 <!-- Main content -->
 <div class="absolute w-full z-30 pointer-events-none" style={`top: ${mainPanelTop}`}>
     <!-- The pointer-events-none here prevent blocking the click event of the TOC -->
